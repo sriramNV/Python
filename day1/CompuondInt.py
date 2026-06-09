@@ -1,7 +1,6 @@
 #   Program to calculate Compound interest
 
 # formula for compound interest is principle * (1 + (rate / number of times interest is compounded per annum{n})) ^ n*time invested or borrowed
-#   if intrest calculated only once a year then formula simplifies into p * (1 + r) ^ t
 
 P = float(input("Enter the principle amount: "))
 r = float(input("Enter the rate of interest: "))
