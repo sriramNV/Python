@@ -7,8 +7,8 @@ r = float(input("Enter the rate of interest: "))
 n = int(input("Enter number of times compounded per annum (default 1 for once a year)"))
 t = float(input("Enter the number of year for interest"))
 
-
-A = P * ((1 + r / n) ** (n * t))
+r = r / 100
+A = P * ((1 + (r / n)) ** (n * t))
 interest = A - P
 
 print(f"Total amount is {A:.2f} with interest of{interest:.2f}")
