@@ -1,4 +1,4 @@
-#   Printing right half triangle for given input N
+#   Printing inverted right half triangle for given input N
 
 n = int(input("enter N: "))
 
